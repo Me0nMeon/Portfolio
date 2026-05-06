@@ -21,43 +21,31 @@ main {
 }
 
 .title1 {
-    text-align: start;
+    text-align: start; /* Alinha o texto à esquerda */
     font-size: 26px;
     text-indent: 30px;
     font-family: "Roboto Mono", monospace;
+    padding-left: 20px;;
 }
 
 
 .title2 {
-    text-align: end;
+    text-align: end; /* Alinha o texto à direita */
     text-indent: 30px; /* Define um recuo de 30px para o texto */
     font-size: 26px;
     font-family: "Roboto Mono", monospace;
     padding-right: 20px; /* Adiciona um preenchimento à direita para criar um espaço entre o texto e a borda do header */
 }
 
-.container-horizontal {
-    display: flex;          
-    flex-direction: row;    
-    justify-content: center; 
-    gap: 40px;             
-    width: 90%;            
-    max-width: 1000px;      
-}
-
-.container-horizontal .text2 {
-    flex: 1;             
-    margin: 0;             
-}
-
-.text1 {
+.title3 {
+    font-size: 20px; 
+    font-family: "Roboto Mono", monospace;
     text-align: center;
-    font-size: 26px;
-    font-family: "Roboto Mono", monospace;
 }
 
-.text2 {
-    text-align:justify;
-    font-size: 24px;
-    font-family: "Roboto Mono", monospace;
+footer {
+    background:#DCDCDC;
+    
 }
+
+
