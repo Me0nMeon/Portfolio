@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+header {
+    display: flex; /* Utiliza o modelo de layout flexbox para o header, alinhados ao espaço disponível */
+    justify-content: space-between; /* Alinha os itens do header à esquerda e à direita */
+    align-items: center; 
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px; 
+    min-height: 80vh; 
+    padding: 40px;
+}
+
+.body {
+    background: #DCDCDC;
+}
+
+.title1 {
+    text-align: start;
+    font-size: 26px;
+    text-indent: 30px;
+    font-family: "Roboto Mono", monospace;
+}
+
+
+.title2 {
+    text-align: end;
+    text-indent: 30px; /* Define um recuo de 30px para o texto */
+    font-size: 26px;
+    font-family: "Roboto Mono", monospace;
+    padding-right: 20px; /* Adiciona um preenchimento à direita para criar um espaço entre o texto e a borda do header */
+}
+
+.container-horizontal {
+    display: flex;          
+    flex-direction: row;    
+    justify-content: center; 
+    gap: 40px;             
+    width: 90%;            
+    max-width: 1000px;      
+}
+
+.container-horizontal .text2 {
+    flex: 1;             
+    margin: 0;             
+}
+
+.text1 {
+    text-align: center;
+    font-size: 26px;
+    font-family: "Roboto Mono", monospace;
+}
+
+.text2 {
+    text-align:justify;
+    font-size: 24px;
+    font-family: "Roboto Mono", monospace;
+}
