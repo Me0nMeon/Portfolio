@@ -1,51 +1,79 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
-header {
-    display: flex; /* Utiliza o modelo de layout flexbox para o header, alinhados ao espaço disponível */
-    justify-content: space-between; /* Alinha os itens do header à esquerda e à direita */
-    align-items: center; 
-}
-
-main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 30px; 
-    min-height: 80vh; 
-    padding: 40px;
-}
+/* Criação de classes para fazer a estilização no HTML */
 
 .body {
     background: #DCDCDC;
 }
 
-.title1 {
-    text-align: start; /* Alinha o texto à esquerda */
-    font-size: 26px;
-    text-indent: 30px;
+header {
+    display: flex; /* Deixa os elementos em uma linha só */ 
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px;
+}
+.titulo1 {
     font-family: "Roboto Mono", monospace;
-    padding-left: 20px;;
+    font-size: 26px;
 }
 
-
-.title2 {
-    text-align: end; /* Alinha o texto à direita */
-    text-indent: 30px; /* Define um recuo de 30px para o texto */
-    font-size: 26px;
+.titulo2 {
     font-family: "Roboto Mono", monospace;
-    padding-right: 20px; /* Adiciona um preenchimento à direita para criar um espaço entre o texto e a borda do header */
+    font-size: 26px;
 }
 
-.title3 {
-    font-size: 20px; 
+.titulo3 {
     font-family: "Roboto Mono", monospace;
-    text-align: center;
+    font-size: 26px;
+    text-align: center; 
+}
+
+.paragrafo1 {
+    margin-top: 40px; 
+    font-family: "Roboto Mono", monospace;
+    font-size: 24px;
+    text-align: center; 
+    padding: 30px;
+}
+
+nav {
+    display: flex; 
+    justify-content: center; 
+    gap: 24px; 
+}
+
+.contato {
+    font-family: "Roboto Mono", monospace;
+    font-size: 24px;
+    color: black;
+}
+
+.curriculo {
+    font-family: "Roboto Mono", monospace;
+    font-size: 24px;
+    color:black
+}
+
+.social {
+    font-family: "Roboto Mono", monospace;
+    font-size: 24px;
+    color:black
 }
 
 footer {
-    background:#DCDCDC;
-    
+    width: 100%;
 }
 
+#footer_content {
+    background-color: #DCDCDC;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem 1.5rem; 
+}
+
+#footer_social_media {
+    display: flex; 
+    gap: 2rem; 
+    margin-top: 1.5rem; 
+}
 
