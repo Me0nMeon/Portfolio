@@ -12,15 +12,7 @@ header {
     align-items: center;
     padding: 20px;
 }
-.titulo1 {
-    font-family: "Roboto Mono", monospace;
-    font-size: 26px;
-}
 
-.titulo2 {
-    font-family: "Roboto Mono", monospace;
-    font-size: 26px;
-}
 
 .titulo3 {
     font-family: "Roboto Mono", monospace;
@@ -34,12 +26,6 @@ header {
     font-size: 24px;
     text-align: center; 
     padding: 30px;
-}
-
-nav {
-    display: flex; 
-    justify-content: center; 
-    gap: 24px; 
 }
 
 .contato {
