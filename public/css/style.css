@@ -14,10 +14,11 @@ header {
 }
 
 
-.titulo3 {
+.titulo1 {
     font-family: "Roboto Mono", monospace;
     font-size: 26px;
     text-align: center; 
+    padding-top: 2px;
 }
 
 .paragrafo1 {
@@ -49,27 +50,4 @@ header {
 footer {
     width: 100%;
     color:black;
-}
-
-#footer_content {
-    background-color: #DCDCDC;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    padding: 2rem 1.5rem; 
-}
-
-#footer_contact h1 {
-   margin-bottom: 0,75rem;
-}
-
-#footer_social_media {
-    display: flex; 
-    gap: 2rem; 
-    margin-top: 1.5rem; 
-}
-
-#footer_social_media .footer-link {
-    height: 2.5rem;
-    width: 2.5rem;
-    color: black;
 }
