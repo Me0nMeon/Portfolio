@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
-/* Criação de classes para fazer a estilização no HTML */
-
 .body {
     background: #DCDCDC;
 }
@@ -9,10 +7,8 @@
 header {
     display: flex; /* Deixa os elementos em uma linha só */ 
     justify-content: space-between; 
-    align-items: center;
     padding: 20px;
 }
-
 
 .titulo1 {
     font-family: "Roboto Mono", monospace;
@@ -29,25 +25,19 @@ header {
     padding: 30px;
 }
 
-.contato {
-    font-family: "Roboto Mono", monospace;
-    font-size: 24px;
-    color: black;
+.titulo2 {
+font-family: "Roboto Mono", monospace;
+font-size: 26px;
+text-align: center;
+padding-top: 2px;
 }
 
-.curriculo {
+.container-paragrafo {
     font-family: "Roboto Mono", monospace;
-    font-size: 24px;
-    color:black
+    font-size: 20px;
+    padding: 30px;
+    flex-direction: column;
+    display: flex;
 }
 
-.social {
-    font-family: "Roboto Mono", monospace;
-    font-size: 24px;
-    color:black
-}
 
-footer {
-    width: 100%;
-    color:black;
-}
