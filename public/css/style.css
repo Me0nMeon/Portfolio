@@ -52,3 +52,26 @@ hr {
     padding: 30px;
 }
 
+img {
+    width: 400px;
+    padding: 30px;
+}
+
+.principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1; 
+}
+
+.sobremim {
+    width: 50%;
+}
+
+.body1 {
+    background: #DCDCDC;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
