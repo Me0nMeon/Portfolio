@@ -52,21 +52,14 @@ hr {
     padding: 30px;
 }
 
-@media (max-width: 600px) {
+
 .principal {
-        flex-direction: column;
-        padding: 15px;
-    }
-
-.principal form {
-        width: 100%;
-    }
-
-img {
-        width: 80%;
-        padding: 15px;
-    }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1; 
 }
+
 .sobremim {
     width: 50%;
 }
